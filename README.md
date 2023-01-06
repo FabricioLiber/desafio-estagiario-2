@@ -8,19 +8,23 @@ A vaga é para Estagiário Desenvolvedor.
 
 ### Desafio Técnico
 
-  - Resumo do problema: Hoje na empresa estamos com muitos funcionários e também muitos clientes nos quais prestam serviços, e todo esse controle de cadastro desse pessoal está sendo através de papel físico. Com isso precisamos de uma sistema para manter o cadastro de todas essas pessoas (Funcionarios e clientes).
-  
+Lojas
+    Fisica
+    Virtual
+
+  - Resumo do problema: Precisamos manter um cadastro das lojas de nossos clientes para futuras consultas. Eles possuem lojas físicas e virtuais com informações diferentes entre elas. Quando precisamos de um contato de telefone ou endereço, temos que buscar nas pastas físicas de cadastros de clientes.
+    
   
   - Dicionário:
     ```
-    * Pessoa Funcionário: Funcionário da RPE que pode ser desenvolvedor, qa, gerente, RH, etc.
-      Atributos: CPF, Nome, Endereco, Telefone, Função, Status, Data de Contratação
+    * Loja Física: Loja física são lojas localizadas em um endereço de correspondência único.
+      Atributos: CNPJ, Nome, Segmento, Telefone, Endereco Físico, Número de Funcionários
         
-    * Pessoa Cliente: Cliente que presta serviço para RPE, exmplo eletricista, faxineiro, etc.
-      Atributos: CPF, Nome, Endereco, Telefone, Data do último serviço
+    * Loja Virtual: Loja virtual são lojas hospedadas em ambientes/sites.
+      Atributos: CNPJ, Nome, Segmento, Telefone, URL, Reputação
     ```
 
-  Objetivo do Desafio: Desenvolver uma api que tenha uma função de crud para manter os cadastros.    
+  Objetivo do Desafio: Desenvolver uma api que tenha uma função de crud para manter os cadastros das lojas.    
   
     
   - Pré-requisitos:
@@ -34,14 +38,14 @@ A vaga é para Estagiário Desenvolvedor.
 
   - O que esperamos como escopo:
     ```
-    * Endpoint para adicionar um Funcionário
-    * Endpoint para adicionar um Cliente
-    * Endpoint para consultar um Funcionário
-    * Endpoint para consultar um Cliente
-    * Endpoint para alterar um Funcionário
-    * Endpoint para alterar um Cliente
-    * Endpoint para remover um Funcionário
-    * Endpoint para remover um Cliente
+    * Endpoint para adicionar uma Loja Física
+    * Endpoint para adicionar uma Loja Virtual
+    * Endpoint para consultar uma Loja Física
+    * Endpoint para consultar uma Loja Virtual
+    * Endpoint para alterar uma Loja Física
+    * Endpoint para alterar uma Loja Virtual
+    * Endpoint para remover uma Loja Física
+    * Endpoint para remover uma Loja Virtual
 
     ```
 
