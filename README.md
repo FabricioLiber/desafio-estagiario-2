@@ -8,10 +8,6 @@ A vaga é para Estagiário Desenvolvedor.
 
 ### Desafio Técnico
 
-Lojas
-    Fisica
-    Virtual
-
   - Resumo do problema: Precisamos manter um cadastro das lojas de nossos clientes para futuras consultas. Eles possuem lojas físicas e virtuais com informações diferentes entre elas. Quando precisamos de um contato de telefone ou endereço, temos que buscar nas pastas físicas de cadastros de clientes.
     
   
